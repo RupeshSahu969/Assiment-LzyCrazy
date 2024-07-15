@@ -1,0 +1,52 @@
+/* addshopcategory.css */
+
+.containeadd {
+    border: 1px solid rgb(232, 222, 222);
+    height: 50px;
+    box-shadow: rgba(167, 163, 163, 0.2) 0px 8px 24px;
+    margin-bottom: 20px;
+    padding: 10px; 
+  }
+  
+  .mainDiv {
+    padding: 20px;
+    margin: auto;
+  }
+  
+  .containerForm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  
+  .form-label {
+    font-weight: bold;
+    color: #333;
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+
+  
+  .btn-1 {
+    margin-top: 20px;
+    margin-left: -550px;
+  }
+  
+  .btn {
+    background-color: rgb(51, 19, 82);
+    color: white;
+    width: 100px;
+  }
+  
+  @media (max-width: 768px) {
+    .containerForm {
+      grid-template-columns: 2fr;
+    }
+    
+    
+      
+  }
+  
