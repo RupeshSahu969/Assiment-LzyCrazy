@@ -7,7 +7,9 @@ import AddShopCategory from './Pages/AddShopCategory';
 function App() {
   return (
     <div className="App">
-      <AddShopCategory/>
+      {/* <AddShopCategory/> */}
+      {/* <Dashboard/> */}
+      <AddShop/>
     </div>
   );
 }
